@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using KiiLibrary.WPF;
-using MahApps.Metro.Controls;
 
 namespace FF1Router
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindowRefactor.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class MainWindowRefactor : Window
     {
-        public MainWindow()
+        public MainWindowRefactor()
         {
             InitializeComponent();
-
-
-            StepsGrid.ConfigureSingleClickEditing();
-            ResultsGrid.DisableSelection();
         }
     }
 }
